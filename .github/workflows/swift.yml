@@ -1,6 +1,6 @@
 language: swift
 osx_image: xcode10.2
-
+on: [push]
 env:
   matrix:
    - DESTINATION="platform=iOS Simulator,OS=12.2,name=iPhone X"
